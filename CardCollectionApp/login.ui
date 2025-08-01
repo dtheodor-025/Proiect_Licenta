@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QWidget" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="styleSheet">
+      <string notr="true">font-size: 20px; font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>One Piece Card Login</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="usernameLabel">
+       <property name="text">
+        <string>Username:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="usernameInput"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="passwordLabel">
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="passwordInput">
+       <property name="echoMode">
+        <enum>QLineEdit::EchoMode::Password</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="loginButton">
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="registerButton">
+       <property name="text">
+        <string>Register</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="errorLabel">
+     <property name="styleSheet">
+      <string notr="true">color: red; font-style: italic;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
