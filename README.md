@@ -6,13 +6,13 @@ Track all your cards, build decklists, and keep your collection organized.
 ## 📸 Screenshots
 
 ### Login
-![Login Window](images/loginwindow.png)
+![Login Window](SS/loginwindow.png)
 
 ### Register
-![Register Window](images/registerwindow.png)
+![Register Window](SS/registerwindow.png)
 
 ### Main Collection View
-![Main Window](images/mainwindow.png)
+![Main Window](SS/mainwindow.png)
 
 *(Add more screenshots for Deck List Window and Card View if available)*
 
