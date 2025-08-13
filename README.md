@@ -14,7 +14,11 @@ Track all your cards, build decklists, and keep your collection organized.
 ### Main Collection View
 ![Main Window](SS/mainwindow.png)
 
-*(Add more screenshots for Deck List Window and Card View if available)*
+### Card Window View
+![Card Window](SS/cardwindow.png)
+
+### Decklsit Window View
+![Decklist Window](SS/decklist.png)
 
 ## ✨ Features
 - **Collection Tracking** – Easily add and organize all your One Piece TCG cards.
